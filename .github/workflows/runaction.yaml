@@ -6,7 +6,7 @@ jobs:
      steps:
        - name: Checkout Repo
          uses: actions/checkout@v4
-       -name: Testing Custom Action
+       - name: Testing Custom Action
         uses: ./acton.yaml
         with:
           param1: "This is tesing now the input" 

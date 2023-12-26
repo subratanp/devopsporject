@@ -5,3 +5,4 @@ var testinput=core.getInput('param1',{required:true});
 
 core.info("This is a test input: " +  testinput);
 
+

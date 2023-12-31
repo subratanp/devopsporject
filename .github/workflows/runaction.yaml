@@ -7,7 +7,7 @@ jobs:
        - name: Checkout Repo
          uses: actions/checkout@v4
        - name: Testing Custom Action
-         uses: subratanp/action_test01@v1.4
+         uses: subratanp/action_test01@v1.5
          with:
           param1: "This is tesing now the input" 
            

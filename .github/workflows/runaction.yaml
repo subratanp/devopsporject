@@ -10,6 +10,12 @@ jobs:
          uses: subratanp/action_test01@v1.28
          with:
           param1: "This is tesing now the input" 
+       - name: Upload Artifact   
+         uses: actions/upload-artifact@v3
+         with:
+            name: "${{GITHUB_ACTOR}}_provenence.json"
+            path: "${{GITHUB_ACTOR}}_provenence.json"
+            
          
            
            

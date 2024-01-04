@@ -3,6 +3,8 @@ on: [push]
 jobs:
   testingaction:
      runs-on: ubuntu-latest
+     env: 
+        github_actor: ${{ GITHUB_ACTOR }}
      steps:
        - name: Checkout Repo
          uses: actions/checkout@v4
@@ -13,8 +15,8 @@ jobs:
        - name: Upload Artifact   
          uses: actions/upload-artifact@v3
          with:
-            name: "$GITHUB_ACTOR_provenence.json"
-            path: "$GITHUB_ACTOR_provenence.json"
+            name: ${{ github.actor }}_provenence.json
+            path: $GITHUB_ACTOR_provenence.json
             
          
            

@@ -4,7 +4,7 @@ jobs:
   testingaction:
      runs-on: ubuntu-latest
      env: 
-        github_actor: ${{ GITHUB_ACTOR }}
+        github_actor: ${{ github.actor }}
      steps:
        - name: Checkout Repo
          uses: actions/checkout@v4

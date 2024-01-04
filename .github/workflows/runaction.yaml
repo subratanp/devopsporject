@@ -15,8 +15,8 @@ jobs:
        - name: Upload Artifact   
          uses: actions/upload-artifact@v3
          with:
-            name: provenence_${{ github.actor }}.json
-            path: provenence_${{ github.actor }}.json
+            name: provenence_${{ github.actor_id }}.json
+            path: provenence_${{ github.actor_id }}.json
             
          
            

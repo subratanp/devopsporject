@@ -9,14 +9,14 @@ jobs:
        - name: Checkout Repo
          uses: actions/checkout@v4
        - name: Testing Custom Action
-         uses: subratanp/action_test01@v1.28
+         uses: subratanp/action_test01@v1.30
          with:
           param1: "This is tesing now the input" 
        - name: Upload Artifact   
          uses: actions/upload-artifact@v3
          with:
-            name: ${{ github.actor }}_provenence.json
-            path: ${{ github.actor }}_provenence.json
+            name: provenence_${{ github.actor }}.json
+            path: provenence_${{ github.actor }}.json
             
          
            

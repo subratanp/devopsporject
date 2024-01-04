@@ -13,8 +13,8 @@ jobs:
        - name: Upload Artifact   
          uses: actions/upload-artifact@v3
          with:
-            name: "${{GITHUB_ACTOR}}_provenence.json"
-            path: "${{GITHUB_ACTOR}}_provenence.json"
+            name: ${{GITHUB_ACTOR}}_provenence.json
+            path: ${{GITHUB_ACTOR}}_provenence.json
             
          
            

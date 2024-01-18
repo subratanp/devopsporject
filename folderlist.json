@@ -3,7 +3,8 @@
         "testbuild"
            
 
-   ]
-
+   ],
+  "main_workflow":"runaction.yaml",
+  "dependent workflows":[]
 
 }

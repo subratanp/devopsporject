@@ -5,6 +5,7 @@
 
    ],
   "main_workflow":"runaction.yaml",
-  "dependent workflows":[]
+  "dependent workflows":[],
+  "provenance_state": "create"
 
 }

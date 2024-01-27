@@ -9,9 +9,10 @@ jobs:
        - name: Checkout Repo
          uses: actions/checkout@v4
        - name: Testing Custom Action
-         uses: subratanp/action_test01@v1.49
+         uses: subratanp/action_test01@v1.50
          with:
-          param1: "This is tesing now the input" 
+          runner_name: "This is tesing now the input" 
+          runner_os: "This is a test"
        - name: Upload Artifact   
          uses: actions/upload-artifact@v3
          with:
